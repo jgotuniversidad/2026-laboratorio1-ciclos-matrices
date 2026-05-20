@@ -11,13 +11,17 @@
 # EJERCICIO 1: Suma de la Diagonal Principal
 # ========================
 print("--- EJERCICIO 1 ---")
-matriz_e2 = [
+matriz_e1 = [
     [2, 0, 1],
     [4, 3, 2],
     [1, 5, 6]
 ]
 
 suma_diagonal = 0
+filas = len(matriz_e1)
+
+for i in range(filas):
+    suma_diagonal += matriz_e1[i][i]
 
 # TU CÓDIGO AQUÍ (recorre solo donde índice de fila == índice de columna)
 # ...
@@ -29,13 +33,22 @@ print(suma_diagonal)
 # EJERCICIO 2: Promedio Entero por Columna
 # ========================
 print("\n--- EJERCICIO 2 ---")
-matriz_e4 = [
+matriz_e2 = [
     [1, 2, 3],
     [4, 5, 6],
     [7, 8, 9]
 ]
 
 promedios_por_columna = []
+filas = len(matriz_e2)
+columnas = len(matriz_e2[0])
+
+for j in range(columnas):
+    suma_col = 0
+    for i in range(filas):
+        suma_col += matriz_e2[i][j]
+    promedios_por_columna.append(suma_col // filas)
+
 
 # TU CÓDIGO AQUÍ (recorre por columnas primero, suma, divide con // y guarda)
 # ...
