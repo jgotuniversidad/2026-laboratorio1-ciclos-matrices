@@ -46,7 +46,8 @@ estáticas.
 
 `- Impresión de lista: print(*resultado) → separa elementos con espacios -  RESTRICCIÓN: No utilizar input(). Todos los datos van hardcodeados.` ⛔ `- 🎯 INDENTACIÓN: Python usa 4 espacios por nivel. No existen llaves {}.` 
 
-`--------------------------------------------------------------------------------` 🟢 `EJERCICIO 1: Conteo y Suma Condicional en una Matriz Enunciado: Dada una matriz fija de números enteros, recorra todos sus elementos y determine:` 
+`--------------------------------------------------------------------------------` 
+🟢 `EJERCICIO 1: Conteo y Suma Condicional en una Matriz Enunciado: Dada una matriz fija de números enteros, recorra todos sus elementos y determine:` 
 
 ```
 1. La cantidad de números positivos (estrictamente mayores a 0).
@@ -71,7 +72,9 @@ sola línea, separados por un espacio.
 |
 ```
 
-`--------------------------------------------------------------------------------` 🟡 `EJERCICIO 2: Extracción de Máximos por Fila Enunciado: Dada una matriz fija de enteros de dimensiones F x C, recorra cada fila individualmente, identifique el valor máximo presente en dicha fila y almacene ese máximo en un arreglo unidimensional. Al finalizar, imprima el arreglo resultante, manteniendo el orden original de las filas.` 
+`--------------------------------------------------------------------------------` 
+
+🟡 `EJERCICIO 2: Extracción de Máximos por Fila Enunciado: Dada una matriz fija de enteros de dimensiones F x C, recorra cada fila individualmente, identifique el valor máximo presente en dicha fila y almacene ese máximo en un arreglo unidimensional. Al finalizar, imprima el arreglo resultante, manteniendo el orden original de las filas.` 
 
 ```
 🎯 CASOS DE ENTRADA PARA VALIDACIÓN:
